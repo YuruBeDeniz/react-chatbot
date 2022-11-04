@@ -72,4 +72,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ### source
 https://ordinarycoders.com/blog/article/reactjs-chatbot
-# react-chatbot
+
+#### See if the data is posting
+
+Return back to your browser window and open your developer tools.
+
+For Chrome, right-click on the page > Inspect > Console.
+
+Respond to each chatbot question. When you click "Yes" on the final question, you should get a 404 error because we did not enter in an actual URL for Axios to post to, only a slug called /api.
+
+Click on the URL http://localhost:3000/api and it will open the "Network" tab. Click on api and scroll to the bottom of the "Headers" window where you should see the "Request Payload" with the JSON information submitted.
